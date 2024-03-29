@@ -116,13 +116,13 @@ class MyList {
         return vec;
     }
 };
-void printVector(vector<int> vec)
-{
+    void printVector(vector<int> vec)
+    {
 	for (int i = 0; i < vec.size(); i++)
 	{
 		cout << vec[i] << "";
 	}
-}
+    }
 
 /* Driver Code */
 int main() {
