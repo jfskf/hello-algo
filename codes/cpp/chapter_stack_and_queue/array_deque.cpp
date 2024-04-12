@@ -11,8 +11,8 @@ class ArrayDeque {
   private:
     vector<int> nums; // 用于存储双向队列元素的数组
     int front;        // 队首指针，指向队首元素
-    int queSize;      // 双向队列长度
-
+    int queSize;// 双向队列长度
+    int last;
   public:
     /* 构造方法 */
     ArrayDeque(int capacity) {
